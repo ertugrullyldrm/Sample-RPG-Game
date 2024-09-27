@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a17c5e18caa5a448f19c7e4c1b2c2d, type: 3}
+  m_Name: SwordSlash_Skill
+  m_EditorClassIdentifier: 
+  name: Slash
+  damage: 3
+  countdown: 2
+  range: 2
+  castingTime: 1.5
+  countdownElapsed: 2
+  caster: {fileID: 0}
+  isProjectile: 0
+  canMoveOnCast: 0
+  skillPrefab: {fileID: 2164382971086557419, guid: 8ef292241c2db9748b9116a81e74de20, type: 3}
+  target: {fileID: 0}

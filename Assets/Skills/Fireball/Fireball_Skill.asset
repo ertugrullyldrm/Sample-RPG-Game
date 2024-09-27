@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a17c5e18caa5a448f19c7e4c1b2c2d, type: 3}
+  m_Name: Fireball_Skill
+  m_EditorClassIdentifier: 
+  skillPrefab: {fileID: 9136692291095263213, guid: 022095a6bd3650a4d8ba9564d7e1afec, type: 3}
+  caster: {fileID: 0}
+  target: {fileID: 0}
+  name: Fireball
+  icon: {fileID: 2800000, guid: bae4104b14186ef44a8317e000676a41, type: 3}
+  countdown: 1.5
+  castingTime: 1.5
+  countdownElapsed: -0.01999874
+  manaCost: 0
+  isPassive: 0
+  minRange: 2
+  maxRange: 10
+  velocity: 5
+  minDamage: 4
+  maxDamage: 8
+  strength: 0
+  intelligence: 0
+  agility: 0
+  vitality: 0

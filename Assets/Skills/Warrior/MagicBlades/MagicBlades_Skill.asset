@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a17c5e18caa5a448f19c7e4c1b2c2d, type: 3}
+  m_Name: MagicBlades_Skill
+  m_EditorClassIdentifier: 
+  skillPrefab: {fileID: 2164382971086557419, guid: 81e7b1755a25bcc4a8c55b434bb08d48, type: 3}
+  caster: {fileID: 0}
+  target: {fileID: 0}
+  name: Magic Blades
+  icon: {fileID: 2800000, guid: 434c02f77de62c9478a480f1714c4545, type: 3}
+  countdown: 6
+  castingTime: 1.2
+  countdownElapsed: 2
+  manaCost: 15
+  isPassive: 0
+  minRange: 2
+  maxRange: 3
+  velocity: 5
+  minDamage: 45
+  maxDamage: 55
+  strength: 0
+  intelligence: 0
+  agility: 0.5
+  vitality: 0
